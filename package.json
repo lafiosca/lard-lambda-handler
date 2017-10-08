@@ -1,0 +1,32 @@
+{
+  "name": "lard-lambda-handler",
+  "version": "1.0.0",
+  "description": "AWS Lambda handler wrappers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lafiosca/lard-lambda-handler.git"
+  },
+  "keywords": [
+    "lard",
+    "aws",
+    "lambda",
+    "promise",
+    "handler"
+  ],
+  "author": "Joe Lafiosca <joe@lafiosca.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lafiosca/lard-lambda-handler/issues"
+  },
+  "homepage": "https://github.com/lafiosca/lard-lambda-handler#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "http-errors": "^1.6.2",
+    "lodash": "^4.17.4",
+    "statuses": "^1.3.1"
+  }
+}
